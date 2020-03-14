@@ -6,7 +6,7 @@ module.exports = function(app){
 
 
     Workout.find()
-    .ten(data => {
+    .then(data => {
         res.json(data)
 
     })
